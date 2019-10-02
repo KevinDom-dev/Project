@@ -13,7 +13,7 @@ fetch(url)
     })
     .catch(
         document.getElementById("info-screen").innerHTML = "no data or error"
-    )
+    );
 
 
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -281,8 +281,8 @@ function evolveTo() {
                     fetch('https://pokeapi.co/api/v2/pokemon/' + input.value)
                         .then((response) => response.json())
                         .then((data) => {
-                            name = data.name
-                            toTest = name
+                            name = data.name;
+                            toTest = name;
                             evolved = "";
                             if (evoChain.length == 3) {
                                 console.log("got the third one")

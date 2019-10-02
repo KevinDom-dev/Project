@@ -15,7 +15,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  background-image: url("../img/pokedex/background.png");
+  background-image: url("/Project/pokedex/assets/img/pokedex/background.png");
   background-size: cover; }
 
 #pokedex {
